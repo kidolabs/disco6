@@ -1,0 +1,148 @@
+{
+  "title": "Super Structures",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Bridges",
+    "Skyscrapers",
+    "Dams",
+    "Olympic Structures",
+    "Different Shapes",
+    "Glass and Ice",
+    "Amazing Places",
+    "Structures in Space",
+    "Animal Structures"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 5,
+      "audio": "l3-super-structures-01.mp3",
+      "label": "1 · Bridges"
+    },
+    {
+      "n": 6,
+      "audio": "l3-super-structures-02.mp3",
+      "label": "2 · Skyscrapers"
+    },
+    {
+      "n": 7,
+      "audio": "l3-super-structures-03.mp3",
+      "label": "3 · Dams"
+    },
+    {
+      "n": 8,
+      "audio": "l3-super-structures-04.mp3",
+      "label": "4 · Olympic Structures"
+    },
+    {
+      "n": 9,
+      "audio": "l3-super-structures-05.mp3",
+      "label": "5 · Different Shapes"
+    },
+    {
+      "n": 10,
+      "audio": "l3-super-structures-06.mp3",
+      "label": "6 · Glass and Ice"
+    },
+    {
+      "n": 11,
+      "audio": "l3-super-structures-07.mp3",
+      "label": "7 · Amazing Places"
+    },
+    {
+      "n": 12,
+      "audio": "l3-super-structures-08.mp3",
+      "label": "8 · Structures in Space"
+    },
+    {
+      "n": 13,
+      "audio": "l3-super-structures-09.mp3",
+      "label": "9 · Animal Structures"
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 26,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

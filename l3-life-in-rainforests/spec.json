@@ -1,0 +1,149 @@
+{
+  "title": "Life in Rainforests",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Tropical Rainforests",
+    "Rainforest Layers",
+    "Plants",
+    "Rivers",
+    "Mammals",
+    "Mini-beasts",
+    "Birds",
+    "People",
+    "Rainforest Problems",
+    "Save the Rainforests"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l3-life-in-rainforests-01.mp3",
+      "label": "1 · Tropical Rainforests"
+    },
+    {
+      "n": 5,
+      "audio": "l3-life-in-rainforests-02.mp3",
+      "label": "2 · Rainforest Layers"
+    },
+    {
+      "n": 6,
+      "audio": "l3-life-in-rainforests-03.mp3",
+      "label": "3 · Plants"
+    },
+    {
+      "n": 7,
+      "audio": "l3-life-in-rainforests-04.mp3",
+      "label": "4 · Rivers"
+    },
+    {
+      "n": 8,
+      "audio": "l3-life-in-rainforests-05.mp3",
+      "label": "5 · Mammals"
+    },
+    {
+      "n": 9,
+      "audio": "l3-life-in-rainforests-06.mp3",
+      "label": "6 · Mini-beasts"
+    },
+    {
+      "n": 10,
+      "audio": "l3-life-in-rainforests-07.mp3",
+      "label": "7 · Birds"
+    },
+    {
+      "n": 11,
+      "audio": "l3-life-in-rainforests-08.mp3",
+      "label": "8 · People"
+    },
+    {
+      "n": 12,
+      "audio": "l3-life-in-rainforests-09.mp3",
+      "label": "9 · Rainforest Problems"
+    },
+    {
+      "n": 13,
+      "audio": "l3-life-in-rainforests-10.mp3",
+      "label": "10 · Save the Rainforests"
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 26,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

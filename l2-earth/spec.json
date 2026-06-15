@@ -1,0 +1,127 @@
+{
+  "title": "Earth",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "What Is Earth?",
+    "Land",
+    "Water",
+    "Hot Places",
+    "Cold Places",
+    "Wet Places",
+    "Under the Land",
+    "In the Ocean"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l2-earth-01.mp3",
+      "label": "1 · What Is Earth?"
+    },
+    {
+      "n": 5,
+      "audio": "l2-earth-02.mp3",
+      "label": "2 · Land"
+    },
+    {
+      "n": 6,
+      "audio": "l2-earth-03.mp3",
+      "label": "3 · Water"
+    },
+    {
+      "n": 7,
+      "audio": "l2-earth-04.mp3",
+      "label": "4 · Hot Places"
+    },
+    {
+      "n": 8,
+      "audio": "l2-earth-05.mp3",
+      "label": "5 · Cold Places"
+    },
+    {
+      "n": 9,
+      "audio": "l2-earth-06.mp3",
+      "label": "6 · Wet Places"
+    },
+    {
+      "n": 10,
+      "audio": "l2-earth-07.mp3",
+      "label": "7 · Under the Land"
+    },
+    {
+      "n": 11,
+      "audio": "l2-earth-08.mp3",
+      "label": "8 · In the Ocean"
+    },
+    {
+      "n": 12,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

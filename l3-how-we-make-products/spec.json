@@ -1,0 +1,149 @@
+{
+  "title": "How We Make Products",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Making Products By Hand",
+    "Clothes",
+    "Plastic Products",
+    "Cars",
+    "Food",
+    "Homes",
+    "Books",
+    "Electronic Products",
+    "Computer Games",
+    "Products and Our World"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l3-how-we-make-products-01.mp3",
+      "label": "1 · Making Products By Hand"
+    },
+    {
+      "n": 5,
+      "audio": "l3-how-we-make-products-02.mp3",
+      "label": "2 · Clothes"
+    },
+    {
+      "n": 6,
+      "audio": "l3-how-we-make-products-03.mp3",
+      "label": "3 · Plastic Products"
+    },
+    {
+      "n": 7,
+      "audio": "l3-how-we-make-products-04.mp3",
+      "label": "4 · Cars"
+    },
+    {
+      "n": 8,
+      "audio": "l3-how-we-make-products-05.mp3",
+      "label": "5 · Food"
+    },
+    {
+      "n": 9,
+      "audio": "l3-how-we-make-products-06.mp3",
+      "label": "6 · Homes"
+    },
+    {
+      "n": 10,
+      "audio": "l3-how-we-make-products-07.mp3",
+      "label": "7 · Books"
+    },
+    {
+      "n": 11,
+      "audio": "l3-how-we-make-products-08.mp3",
+      "label": "8 · Electronic Products"
+    },
+    {
+      "n": 12,
+      "audio": "l3-how-we-make-products-09.mp3",
+      "label": "9 · Computer Games"
+    },
+    {
+      "n": 13,
+      "audio": "l3-how-we-make-products-10.mp3",
+      "label": "10 · Products and Our World"
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 26,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

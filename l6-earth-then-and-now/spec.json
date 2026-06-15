@@ -1,0 +1,167 @@
+{
+  "title": "Earth Then and Now",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "A Ball of Fire",
+    "Water and Air",
+    "Minerals and Rock",
+    "Tectonic Plates",
+    "Plant Life",
+    "Animal Life",
+    "Temperature",
+    "People on Earth"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l6-earth-then-and-now-01.mp3",
+      "label": "1 · A Ball of Fire"
+    },
+    {
+      "n": 5,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 6,
+      "audio": "l6-earth-then-and-now-02.mp3",
+      "label": "2 · Water and Air"
+    },
+    {
+      "n": 7,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 8,
+      "audio": "l6-earth-then-and-now-03.mp3",
+      "label": "3 · Minerals and Rock"
+    },
+    {
+      "n": 9,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 10,
+      "audio": "l6-earth-then-and-now-04.mp3",
+      "label": "4 · Tectonic Plates"
+    },
+    {
+      "n": 11,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 12,
+      "audio": "l6-earth-then-and-now-05.mp3",
+      "label": "5 · Plant Life"
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": "l6-earth-then-and-now-06.mp3",
+      "label": "6 · Animal Life"
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": "l6-earth-then-and-now-07.mp3",
+      "label": "7 · Temperature"
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": "l6-earth-then-and-now-08.mp3",
+      "label": "8 · People on Earth"
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 26,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 27,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 28,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 29,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 30,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

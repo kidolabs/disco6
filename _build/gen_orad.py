@@ -17,13 +17,13 @@ menu, body = [], []
 ci = 0
 for p in spec["pages"]:
     img = f'<img loading="lazy" decoding="async" src="{page_file(p["n"])}" alt="page {p["n"]}">'
-    if p.get("audio"):
+    if p.get("label"):
         ci += 1
         cid = f"ch-{ci}"
         menu.append(f'<a href="#{cid}">{esc(p["label"])}</a>')
         btn = (f'<button class="nghe" data-src="audio/{esc(p["audio"])}" '
                f'data-unit="{esc(title)}" data-title="Chapter {esc(p["label"])}">'
-               f'<span class="ic">🔊</span> Listen</button>')
+               f'<span class="ic">🔊</span> Listen</button>') if p.get("audio") else ""
         body.append(f'<section id="{cid}" class="ch" data-ch="{esc(p["label"])}">'
                     f'<div class="chh"><span class="cnum">{ci}</span>{esc(p["label"].split("·",1)[-1].strip())}</div>'
                     f'<div class="block">{btn}<div class="imgs">{img}</div></div></section>')

@@ -1,0 +1,127 @@
+{
+  "title": "Cities",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "What Is a City?",
+    "Buildings",
+    "Water",
+    "Tourists",
+    "Homes",
+    "Work",
+    "Transportation",
+    "Fun"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l2-cities-01.mp3",
+      "label": "1 · What Is a City?"
+    },
+    {
+      "n": 5,
+      "audio": "l2-cities-02.mp3",
+      "label": "2 · Buildings"
+    },
+    {
+      "n": 6,
+      "audio": "l2-cities-03.mp3",
+      "label": "3 · Water"
+    },
+    {
+      "n": 7,
+      "audio": "l2-cities-04.mp3",
+      "label": "4 · Tourists"
+    },
+    {
+      "n": 8,
+      "audio": "l2-cities-05.mp3",
+      "label": "5 · Homes"
+    },
+    {
+      "n": 9,
+      "audio": "l2-cities-06.mp3",
+      "label": "6 · Work"
+    },
+    {
+      "n": 10,
+      "audio": "l2-cities-07.mp3",
+      "label": "7 · Transportation"
+    },
+    {
+      "n": 11,
+      "audio": "l2-cities-08.mp3",
+      "label": "8 · Fun"
+    },
+    {
+      "n": 12,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

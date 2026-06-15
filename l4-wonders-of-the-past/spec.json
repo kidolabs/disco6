@@ -1,0 +1,147 @@
+{
+  "title": "Wonders of the Past",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Stonehenge",
+    "Tutankhamun's Treasures",
+    "The Great Wall of China",
+    "The Colosseum",
+    "Petra",
+    "Easter Island Statues",
+    "Chichen Itza",
+    "Anchor Wat"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l4-wonders-of-the-past-01.mp3",
+      "label": "1 · Stonehenge"
+    },
+    {
+      "n": 5,
+      "audio": "l4-wonders-of-the-past-02.mp3",
+      "label": "2 · Tutankhamun's Treasures"
+    },
+    {
+      "n": 6,
+      "audio": "l4-wonders-of-the-past-03.mp3",
+      "label": "3 · The Great Wall of China"
+    },
+    {
+      "n": 7,
+      "audio": "l4-wonders-of-the-past-04.mp3",
+      "label": "4 · The Colosseum"
+    },
+    {
+      "n": 8,
+      "audio": "l4-wonders-of-the-past-05.mp3",
+      "label": "5 · Petra"
+    },
+    {
+      "n": 9,
+      "audio": "l4-wonders-of-the-past-06.mp3",
+      "label": "6 · Easter Island Statues"
+    },
+    {
+      "n": 10,
+      "audio": "l4-wonders-of-the-past-07.mp3",
+      "label": "7 · Chichen Itza"
+    },
+    {
+      "n": 11,
+      "audio": "l4-wonders-of-the-past-08.mp3",
+      "label": "8 · Anchor Wat"
+    },
+    {
+      "n": 12,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 26,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "Animals at Night",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Special Senses",
+    "Flying at Night",
+    "Ocean Animals",
+    "Mini Beasts",
+    "Desert Animals",
+    "African Animals",
+    "Animals Asleep",
+    "Noises at Night",
+    "Traveling at Night"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l4-animals-at-night-01.mp3",
+      "label": "1 · Special Senses"
+    },
+    {
+      "n": 5,
+      "audio": "l4-animals-at-night-02.mp3",
+      "label": "2 · Flying at Night"
+    },
+    {
+      "n": 6,
+      "audio": "l4-animals-at-night-03.mp3",
+      "label": "3 · Ocean Animals"
+    },
+    {
+      "n": 7,
+      "audio": "l4-animals-at-night-04.mp3",
+      "label": "4 · Mini Beasts"
+    },
+    {
+      "n": 8,
+      "audio": "l4-animals-at-night-05.mp3",
+      "label": "5 · Desert Animals"
+    },
+    {
+      "n": 9,
+      "audio": "l4-animals-at-night-06.mp3",
+      "label": "6 · African Animals"
+    },
+    {
+      "n": 10,
+      "audio": "l4-animals-at-night-07.mp3",
+      "label": "7 · Animals Asleep"
+    },
+    {
+      "n": 11,
+      "audio": "l4-animals-at-night-08.mp3",
+      "label": "8 · Noises at Night"
+    },
+    {
+      "n": 12,
+      "audio": "l4-animals-at-night-09.mp3",
+      "label": "9 · Traveling at Night"
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

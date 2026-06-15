@@ -1,0 +1,167 @@
+{
+  "title": "Our World in Art",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Cities",
+    "Indoors",
+    "Outdoors",
+    "Still Life's",
+    "Machines",
+    "Light",
+    "Movement",
+    "Art in Our World"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l5-our-world-in-art-01.mp3",
+      "label": "1 · Cities"
+    },
+    {
+      "n": 5,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 6,
+      "audio": "l5-our-world-in-art-02.mp3",
+      "label": "2 · Indoors"
+    },
+    {
+      "n": 7,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 8,
+      "audio": "l5-our-world-in-art-03.mp3",
+      "label": "3 · Outdoors"
+    },
+    {
+      "n": 9,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 10,
+      "audio": "l5-our-world-in-art-04.mp3",
+      "label": "4 · Still Life's"
+    },
+    {
+      "n": 11,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 12,
+      "audio": "l5-our-world-in-art-05.mp3",
+      "label": "5 · Machines"
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": "l5-our-world-in-art-06.mp3",
+      "label": "6 · Light"
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": "l5-our-world-in-art-07.mp3",
+      "label": "7 · Movement"
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": "l5-our-world-in-art-08.mp3",
+      "label": "8 · Art in Our World"
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 26,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 27,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 28,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 29,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 30,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

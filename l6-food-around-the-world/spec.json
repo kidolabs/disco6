@@ -1,0 +1,166 @@
+{
+  "title": "Food Around the World",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Food Producers",
+    "Food Origins",
+    "Typical Dishes",
+    "Cool Drinks",
+    "Street Food",
+    "Special Desserts",
+    "Giving Thanks"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 5,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 6,
+      "audio": "l6-food-around-the-world-01.mp3",
+      "label": "1 · Food Producers"
+    },
+    {
+      "n": 7,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 8,
+      "audio": "l6-food-around-the-world-02.mp3",
+      "label": "2 · Food Origins"
+    },
+    {
+      "n": 9,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 10,
+      "audio": "l6-food-around-the-world-03.mp3",
+      "label": "3 · Typical Dishes"
+    },
+    {
+      "n": 11,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 12,
+      "audio": "l6-food-around-the-world-04.mp3",
+      "label": "4 · Cool Drinks"
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": "l6-food-around-the-world-05.mp3",
+      "label": "5 · Street Food"
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": "l6-food-around-the-world-06.mp3",
+      "label": "6 · Special Desserts"
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": "l6-food-around-the-world-07.mp3",
+      "label": "7 · Giving Thanks"
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 26,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 27,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 28,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 29,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 30,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

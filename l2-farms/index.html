@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farms — Oxford Read and Discover 2</title>
+<style>
+  :root{--accent:#0e8a7d;--bg:#eef5f3;--card:#fff;--bar:#15302c;--red:#ef4444}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:64px}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#222}
+  header.top{position:sticky;top:0;z-index:30;background:#fff;border-bottom:2px solid var(--accent);box-shadow:0 2px 6px rgba(0,0,0,.08)}
+  header.top.hidden{display:none}
+  .bar{display:flex;align-items:center;gap:12px;padding:10px 14px}
+  .burger{border:none;background:var(--accent);color:#fff;width:40px;height:40px;border-radius:10px;font-size:19px;cursor:pointer;flex:none}
+  .htxt{min-width:0}
+  .htxt .bk{font-size:12px;color:#7c8a99;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .htxt .cur{font-size:17px;font-weight:800;color:var(--accent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .menu{display:none;border-top:1px solid #eef1f4;max-height:60vh;overflow:auto;background:#fff;padding:6px}
+  .menu.open{display:block}
+  .menu a{display:block;padding:11px 14px;border-radius:8px;text-decoration:none;color:#243;font-weight:600;font-size:15px}
+  .menu a:hover,.menu a.active{background:var(--accent);color:#fff}
+  #barToggle{position:fixed;top:8px;right:10px;z-index:40;border:none;background:var(--accent);color:#fff;height:42px;padding:0 16px;border-radius:22px;font-size:15px;font-weight:700;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.32);display:inline-flex;align-items:center;gap:7px}
+  main{max-width:820px;margin:0 auto;padding:18px 14px 140px}
+  .ch{margin:0 0 10px}
+  .chh{font-size:17px;color:var(--accent);background:#dcefeb;border-radius:10px;padding:9px 14px;margin:18px 0 8px;font-weight:800}
+  .chh .cnum{display:inline-block;font-size:13px;font-weight:800;background:var(--accent);color:#fff;padding:2px 10px;border-radius:8px;margin-right:10px}
+  .pg{margin:6px 0}
+  .block{background:var(--card);border-radius:12px;padding:12px;box-shadow:0 1px 4px rgba(0,0,0,.07)}
+  button.nghe{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:#fff;background:var(--accent);border:none;border-radius:10px;padding:10px 18px;margin-bottom:10px;cursor:pointer}
+  button.nghe:hover{filter:brightness(1.08)}
+  button.nghe.playing{background:var(--red)}
+  .imgs img,.pg img{width:100%;height:auto;display:block;border-radius:8px;border:1px solid #e1e9e6}
+  #imgzoom{position:fixed;inset:0;z-index:120;background:rgba(16,26,24,.95);display:none}
+  #imgzoom.show{display:block}
+  #imgzoom .izwrap{position:absolute;inset:0;overflow:auto;-webkit-overflow-scrolling:touch;text-align:center}
+  #imgzoom img{width:100vw;height:auto;display:inline-block;vertical-align:top;transition:width .15s ease}
+  #imgzoom .izbar{position:absolute;top:12px;right:12px;z-index:121;display:flex;gap:10px}
+  #imgzoom .izbar button{width:48px;height:48px;border:none;border-radius:50%;background:#fff;color:#222;font-size:24px;font-weight:800;line-height:1;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.45)}
+  /* access gate */
+  #gate{position:fixed;inset:0;z-index:100;background:linear-gradient(135deg,#0e8a7d,#0a4f48);display:none;align-items:center;justify-content:center;padding:20px}
+  #gate .gbox{background:#fff;border-radius:16px;padding:30px 26px;width:min(340px,92vw);text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+  #gate h2{margin:0 0 16px;font-size:20px;color:#0e8a7d}
+  #gate input{width:100%;font-size:22px;text-align:center;letter-spacing:6px;padding:12px;border:2px solid #bfe0da;border-radius:10px;outline:none}
+  #gate input:focus{border-color:#0e8a7d}
+  #gate button{width:100%;margin-top:14px;font-size:16px;font-weight:700;color:#fff;background:#0e8a7d;border:none;border-radius:10px;padding:12px;cursor:pointer}
+  #gate .gerr{color:#ef4444;font-size:13px;height:16px;margin-top:8px}
+  /* bottom player */
+  #player{position:fixed;left:0;right:0;bottom:0;z-index:35;background:var(--bar);color:#fff;display:none;padding:10px 16px;border-top:3px solid var(--red);box-shadow:0 -2px 12px rgba(0,0,0,.3)}
+  #player.show{display:block}
+  #player .ptop{display:flex;align-items:center;gap:14px}
+  #player .pinfo{flex:1;min-width:0}
+  #player .punit{color:var(--red);font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #player .ptitle{font-size:16px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #player .pctrl{display:flex;align-items:center;gap:16px;flex:none}
+  #player .pctrl button{background:none;border:none;color:#fff;font-size:20px;cursor:pointer;line-height:1}
+  #player .pplay{width:48px;height:48px;border-radius:50%;background:var(--red)!important;font-size:21px;display:flex;align-items:center;justify-content:center}
+  #player .pright{display:flex;align-items:center;gap:8px;flex:none}
+  #player .pright button{background:#2a4a44;border:none;color:#fff;border-radius:8px;padding:7px 11px;font-size:13px;cursor:pointer}
+  #player.mini{left:auto;right:10px;bottom:10px;width:auto;border-radius:28px;padding:6px 8px}
+  #player.mini .pinfo,#player.mini .pseek,#player.mini .pspeed,#player.mini .plist{display:none}
+  #player .pmin{font-size:14px;font-weight:800;padding:8px 14px}
+  #player .pseek{display:flex;align-items:center;gap:10px;font-size:12px;color:#9fb6b0;margin-top:8px}
+  #player .pseek input{flex:1;accent-color:var(--red)}
+  @media(max-width:820px){#player .ptop{flex-wrap:wrap}#player .pinfo{flex:1 0 100%;order:-1;margin-bottom:6px}#player .ptitle{font-size:17px;white-space:normal}#player .pctrl{flex:1;justify-content:center}}
+</style></head>
+<body>
+<div id="gate"><div class="gbox"><h2>🔒 Enter code</h2>
+  <input id="gpin" type="password" inputmode="numeric" autocomplete="off" placeholder="••••••">
+  <button id="gbtn">Enter</button><div class="gerr" id="gerr"></div></div></div>
+<button id="barToggle" title="Hide/show top bar">⌃ Hide bar</button>
+<header class="top">
+  <div class="bar">
+    <button id="menuBtn" class="burger" title="Menu">☰</button>
+    <div class="htxt"><div class="bk"><a href="https://kidolabs.github.io/shelf7/" style="color:inherit;text-decoration:none">📚 Library</a> · Farms — Oxford Read and Discover 2</div>
+      <div class="cur" id="curCh"></div></div>
+  </div>
+  <nav id="menu" class="menu"><a href="#ch-1">1 · All About Farms</a><a href="#ch-2">2 · Crops</a><a href="#ch-3">3 · Growing Crops</a><a href="#ch-4">4 · Cattle</a><a href="#ch-5">5 · Sheep</a><a href="#ch-6">6 · Poultry</a><a href="#ch-7">7 · Fish</a><a href="#ch-8">8 · Other Farms</a></nav>
+</header>
+<main><div class="pg"><img loading="lazy" decoding="async" src="pages/p001.webp" alt="page 1"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p002.webp" alt="page 2"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p003.webp" alt="page 3"></div><section id="ch-1" class="ch" data-ch="1 · All About Farms"><div class="chh"><span class="cnum">1</span>All About Farms</div><div class="block"><button class="nghe" data-src="audio/l2-farms-01.mp3" data-unit="Farms — Oxford Read and Discover 2" data-title="Chapter 1 · All About Farms"><span class="ic">🔊</span> Listen</button><div class="imgs"><img loading="lazy" decoding="async" src="pages/p004.webp" alt="page 4"></div></div></section><section id="ch-2" class="ch" data-ch="2 · Crops"><div class="chh"><span class="cnum">2</span>Crops</div><div class="block"><button class="nghe" data-src="audio/l2-farms-02.mp3" data-unit="Farms — Oxford Read and Discover 2" data-title="Chapter 2 · Crops"><span class="ic">🔊</span> Listen</button><div class="imgs"><img loading="lazy" decoding="async" src="pages/p005.webp" alt="page 5"></div></div></section><section id="ch-3" class="ch" data-ch="3 · Growing Crops"><div class="chh"><span class="cnum">3</span>Growing Crops</div><div class="block"><button class="nghe" data-src="audio/l2-farms-03.mp3" data-unit="Farms — Oxford Read and Discover 2" data-title="Chapter 3 · Growing Crops"><span class="ic">🔊</span> Listen</button><div class="imgs"><img loading="lazy" decoding="async" src="pages/p006.webp" alt="page 6"></div></div></section><section id="ch-4" class="ch" data-ch="4 · Cattle"><div class="chh"><span class="cnum">4</span>Cattle</div><div class="block"><button class="nghe" data-src="audio/l2-farms-04.mp3" data-unit="Farms — Oxford Read and Discover 2" data-title="Chapter 4 · Cattle"><span class="ic">🔊</span> Listen</button><div class="imgs"><img loading="lazy" decoding="async" src="pages/p007.webp" alt="page 7"></div></div></section><section id="ch-5" class="ch" data-ch="5 · Sheep"><div class="chh"><span class="cnum">5</span>Sheep</div><div class="block"><button class="nghe" data-src="audio/l2-farms-05.mp3" data-unit="Farms — Oxford Read and Discover 2" data-title="Chapter 5 · Sheep"><span class="ic">🔊</span> Listen</button><div class="imgs"><img loading="lazy" decoding="async" src="pages/p008.webp" alt="page 8"></div></div></section><section id="ch-6" class="ch" data-ch="6 · Poultry"><div class="chh"><span class="cnum">6</span>Poultry</div><div class="block"><button class="nghe" data-src="audio/l2-farms-06.mp3" data-unit="Farms — Oxford Read and Discover 2" data-title="Chapter 6 · Poultry"><span class="ic">🔊</span> Listen</button><div class="imgs"><img loading="lazy" decoding="async" src="pages/p009.webp" alt="page 9"></div></div></section><section id="ch-7" class="ch" data-ch="7 · Fish"><div class="chh"><span class="cnum">7</span>Fish</div><div class="block"><button class="nghe" data-src="audio/l2-farms-07.mp3" data-unit="Farms — Oxford Read and Discover 2" data-title="Chapter 7 · Fish"><span class="ic">🔊</span> Listen</button><div class="imgs"><img loading="lazy" decoding="async" src="pages/p010.webp" alt="page 10"></div></div></section><section id="ch-8" class="ch" data-ch="8 · Other Farms"><div class="chh"><span class="cnum">8</span>Other Farms</div><div class="block"><button class="nghe" data-src="audio/l2-farms-08.mp3" data-unit="Farms — Oxford Read and Discover 2" data-title="Chapter 8 · Other Farms"><span class="ic">🔊</span> Listen</button><div class="imgs"><img loading="lazy" decoding="async" src="pages/p011.webp" alt="page 11"></div></div></section><div class="pg"><img loading="lazy" decoding="async" src="pages/p012.webp" alt="page 12"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p013.webp" alt="page 13"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p014.webp" alt="page 14"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p015.webp" alt="page 15"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p016.webp" alt="page 16"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p017.webp" alt="page 17"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p018.webp" alt="page 18"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p019.webp" alt="page 19"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p020.webp" alt="page 20"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p021.webp" alt="page 21"></div><div class="pg"><img loading="lazy" decoding="async" src="pages/p022.webp" alt="page 22"></div></main>
+<div id="player">
+  <div class="ptop">
+    <div class="pinfo"><div class="punit"></div><div class="ptitle"></div></div>
+    <div class="pctrl"><button class="pprev" title="Previous">⏮</button>
+      <button class="pplay" title="Play/Pause">▶</button>
+      <button class="pnext" title="Next">⏭</button></div>
+    <div class="pright"><button class="pspeed">1x</button>
+      <button class="plist" title="Go to current">☰</button>
+      <button class="pmin" title="Mini">▾ Mini</button>
+      <button class="pclose" title="Close">✕</button></div>
+  </div>
+  <div class="pseek"><span class="cur2">0:00</span><input type="range" min="0" max="100" value="0"><span class="rem">0:00</span></div>
+</div>
+<div id="imgzoom"><div class="izbar"><button class="izout" title="Zoom out">−</button><button class="izin" title="Zoom in">+</button><button class="izx" title="Close">✕</button></div><div class="izwrap"><img alt="page"></div></div>
+<script>
+  (function(){function bye(){location.replace('https://www.google.com');}
+    document.addEventListener('keydown',function(e){var k=(e.key||'').toUpperCase();
+      if(e.keyCode===123||((e.ctrlKey||e.metaKey)&&e.shiftKey&&(k==='I'||k==='J'||k==='C'))||((e.ctrlKey||e.metaKey)&&k==='U')){e.preventDefault();bye();}});
+    document.addEventListener('contextmenu',function(e){e.preventDefault();});
+    if(matchMedia('(pointer:fine)').matches){setInterval(function(){if(window.outerWidth-window.innerWidth>220||window.outerHeight-window.innerHeight>220)bye();},1000);}})();
+  (function(){var K='orad_ok',g=document.getElementById('gate'),i=document.getElementById('gpin'),e=document.getElementById('gerr');
+    if(localStorage.getItem(K)==='1')return;
+    g.style.display='flex';document.body.style.overflow='hidden';i.focus();
+    function go(){if(i.value===atob('MTYwOTI1')){localStorage.setItem(K,'1');g.style.display='none';document.body.style.overflow='';}else{e.textContent='Wrong code';i.value='';i.focus();}}
+    document.getElementById('gbtn').onclick=go;i.addEventListener('keydown',function(ev){if(ev.key==='Enter')go();});})();
+  var au=new Audio(), btns=[].slice.call(document.querySelectorAll('button.nghe')),
+      P=document.getElementById('player'), cur=-1, speeds=[1,1.25,1.5,0.75], si=0;
+  var elPlay=P.querySelector('.pplay'),elUnit=P.querySelector('.punit'),elTitle=P.querySelector('.ptitle'),
+      elCur=P.querySelector('.cur2'),elRem=P.querySelector('.rem'),elSeek=P.querySelector('.pseek input'),elSpeed=P.querySelector('.pspeed');
+  function fmt(t){t=Math.max(0,t|0);return (t/60|0)+':'+('0'+(t%60)).slice(-2);}
+  function mark(){btns.forEach(function(b,i){var on=(i===cur&&!au.paused);b.classList.toggle('playing',on);b.querySelector('.ic').textContent=on?'⏸':'🔊';});elPlay.textContent=au.paused?'▶':'⏸';}
+  function load(i){if(i<0||i>=btns.length)return;cur=i;var b=btns[i];au.src=b.dataset.src;au.playbackRate=speeds[si];elUnit.textContent=b.dataset.unit;elTitle.textContent=b.dataset.title;P.classList.add('show');au.play();}
+  btns.forEach(function(b,i){b.addEventListener('click',function(){if(i===cur&&!au.paused){au.pause();P.classList.remove('show');}else{load(i);}});});
+  elPlay.onclick=function(){au.paused?au.play():au.pause();};
+  P.querySelector('.pprev').onclick=function(){load(cur-1);};
+  P.querySelector('.pnext').onclick=function(){load(cur+1);};
+  P.querySelector('.pclose').onclick=function(){au.pause();P.classList.remove('show');P.classList.remove('mini');cur=-1;mark();};
+  P.querySelector('.pmin').onclick=function(){P.classList.toggle('mini');this.textContent=P.classList.contains('mini')?'▴ Full':'▾ Mini';};
+  elSpeed.onclick=function(){si=(si+1)%speeds.length;au.playbackRate=speeds[si];elSpeed.textContent=speeds[si]+'x';};
+  P.querySelector('.plist').onclick=function(){if(cur>=0)btns[cur].scrollIntoView({block:'center'});};
+  au.addEventListener('play',mark);au.addEventListener('pause',mark);
+  au.addEventListener('ended',function(){if(cur+1<btns.length)load(cur+1);else mark();});
+  var seeking=false;
+  function showTime(t){elCur.textContent=fmt(t);elRem.textContent='-'+fmt(au.duration-t);}
+  au.addEventListener('timeupdate',function(){if(au.duration&&!seeking){elSeek.value=au.currentTime/au.duration*100;showTime(au.currentTime);}});
+  elSeek.addEventListener('input',function(){if(au.duration){var t=elSeek.value/100*au.duration;au.currentTime=t;showTime(t);}});
+  elSeek.addEventListener('pointerdown',function(){seeking=true;});
+  ['pointerup','pointercancel'].forEach(function(ev){elSeek.addEventListener(ev,function(){seeking=false;});});
+  var mb=document.getElementById('menuBtn'), menu=document.getElementById('menu');
+  mb.onclick=function(){menu.classList.toggle('open');};
+  menu.querySelectorAll('a').forEach(function(a){a.onclick=function(){menu.classList.remove('open');};});
+  var curEl=document.getElementById('curCh'), mlinks=[].slice.call(menu.querySelectorAll('a')),
+      sections=[].slice.call(document.querySelectorAll('section.ch'));
+  function onScroll(){var y=80,best=null;
+    for(var i=0;i<sections.length;i++){if(sections[i].getBoundingClientRect().top<=y)best=sections[i];}
+    if(best){curEl.textContent=best.dataset.ch;var id=best.id;mlinks.forEach(function(a){a.classList.toggle('active',a.getAttribute('href')==='#'+id);});}}
+  window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('load',onScroll);onScroll();
+  var hdr=document.querySelector('header.top'),tg=document.getElementById('barToggle');
+  function pad(){document.documentElement.style.scrollPaddingTop=(hdr.classList.contains('hidden')?52:hdr.querySelector('.bar').offsetHeight+10)+'px';}
+  tg.onclick=function(){hdr.classList.toggle('hidden');tg.textContent=hdr.classList.contains('hidden')?'⌄ Show bar':'⌃ Hide bar';pad();};
+  window.addEventListener('resize',pad);window.addEventListener('load',pad);pad();
+  var iz=document.getElementById('imgzoom'),izi=iz.querySelector('img'),izw=iz.querySelector('.izwrap'),izLv=[100,150,200,300,400],izIdx=0;
+  function izApply(){izi.style.width=izLv[izIdx]+'vw';}
+  function izOpen(src){izi.src=src;izIdx=0;izApply();iz.classList.add('show');document.body.style.overflow='hidden';izw.scrollTop=0;izw.scrollLeft=0;}
+  function izClose(){iz.classList.remove('show');izi.removeAttribute('src');document.body.style.overflow='';}
+  document.querySelectorAll('img[alt^="page"]').forEach(function(im){im.style.cursor='zoom-in';im.addEventListener('click',function(){izOpen(im.currentSrc||im.src);});});
+  iz.querySelector('.izin').onclick=function(){if(izIdx<izLv.length-1){izIdx++;izApply();}};
+  iz.querySelector('.izout').onclick=function(){if(izIdx>0){izIdx--;izApply();}};
+  iz.querySelector('.izx').onclick=izClose;
+</script>
+</body></html>

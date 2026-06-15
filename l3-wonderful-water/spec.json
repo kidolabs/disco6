@@ -1,0 +1,139 @@
+{
+  "title": "Wonderful Water",
+  "level": 1,
+  "has_audio": false,
+  "chapters": [
+    "Salt Water",
+    "Fresh Water",
+    "The Water Cycle",
+    "Water at Home",
+    "Water Activities",
+    "We Need Water",
+    "Ocean Animals",
+    "Other Animals",
+    "Too Much Water",
+    "Save Water"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": null,
+      "label": "1 · Salt Water"
+    },
+    {
+      "n": 5,
+      "audio": null,
+      "label": "2 · Fresh Water"
+    },
+    {
+      "n": 6,
+      "audio": null,
+      "label": "3 · The Water Cycle"
+    },
+    {
+      "n": 7,
+      "audio": null,
+      "label": "4 · Water at Home"
+    },
+    {
+      "n": 8,
+      "audio": null,
+      "label": "5 · Water Activities"
+    },
+    {
+      "n": 9,
+      "audio": null,
+      "label": "6 · We Need Water"
+    },
+    {
+      "n": 10,
+      "audio": null,
+      "label": "7 · Ocean Animals"
+    },
+    {
+      "n": 11,
+      "audio": null,
+      "label": "8 · Other Animals"
+    },
+    {
+      "n": 12,
+      "audio": null,
+      "label": "9 · Too Much Water"
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": "10 · Save Water"
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

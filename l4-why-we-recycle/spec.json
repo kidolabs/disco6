@@ -1,0 +1,148 @@
+{
+  "title": "Why We Recycle",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Reduce, Reuse, Recycle",
+    "What Can We Recycle?",
+    "Paper",
+    "Plastic",
+    "Glass",
+    "Metal",
+    "Food Waste",
+    "Problems for Earth",
+    "What Can You Do?"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 5,
+      "audio": "l4-why-we-recycle-01.mp3",
+      "label": "1 · Reduce, Reuse, Recycle"
+    },
+    {
+      "n": 6,
+      "audio": "l4-why-we-recycle-02.mp3",
+      "label": "2 · What Can We Recycle?"
+    },
+    {
+      "n": 7,
+      "audio": "l4-why-we-recycle-03.mp3",
+      "label": "3 · Paper"
+    },
+    {
+      "n": 8,
+      "audio": "l4-why-we-recycle-04.mp3",
+      "label": "4 · Plastic"
+    },
+    {
+      "n": 9,
+      "audio": "l4-why-we-recycle-05.mp3",
+      "label": "5 · Glass"
+    },
+    {
+      "n": 10,
+      "audio": "l4-why-we-recycle-06.mp3",
+      "label": "6 · Metal"
+    },
+    {
+      "n": 11,
+      "audio": "l4-why-we-recycle-07.mp3",
+      "label": "7 · Food Waste"
+    },
+    {
+      "n": 12,
+      "audio": "l4-why-we-recycle-08.mp3",
+      "label": "8 · Problems for Earth"
+    },
+    {
+      "n": 13,
+      "audio": "l4-why-we-recycle-09.mp3",
+      "label": "9 · What Can You Do?"
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 26,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

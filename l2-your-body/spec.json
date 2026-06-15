@@ -1,0 +1,132 @@
+{
+  "title": "Your Body",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Your Skin and Hair",
+    "Your Bones",
+    "Your Muscles",
+    "Your Eyes and Ears",
+    "Your Nose and Mouth",
+    "Your Brain",
+    "Getting Sick",
+    "Protect Your Body"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l2-your-body-01.mp3",
+      "label": "1 · Your Skin and Hair"
+    },
+    {
+      "n": 5,
+      "audio": "l2-your-body-02.mp3",
+      "label": "2 · Your Bones"
+    },
+    {
+      "n": 6,
+      "audio": "l2-your-body-03.mp3",
+      "label": "3 · Your Muscles"
+    },
+    {
+      "n": 7,
+      "audio": "l2-your-body-04.mp3",
+      "label": "4 · Your Eyes and Ears"
+    },
+    {
+      "n": 8,
+      "audio": "l2-your-body-05.mp3",
+      "label": "5 · Your Nose and Mouth"
+    },
+    {
+      "n": 9,
+      "audio": "l2-your-body-06.mp3",
+      "label": "6 · Your Brain"
+    },
+    {
+      "n": 10,
+      "audio": "l2-your-body-07.mp3",
+      "label": "7 · Getting Sick"
+    },
+    {
+      "n": 11,
+      "audio": "l2-your-body-08.mp3",
+      "label": "8 · Protect Your Body"
+    },
+    {
+      "n": 12,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

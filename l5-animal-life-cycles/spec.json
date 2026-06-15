@@ -1,0 +1,167 @@
+{
+  "title": "Animal Life Cycles",
+  "level": 1,
+  "has_audio": true,
+  "chapters": [
+    "Life Cycles",
+    "Insects",
+    "Other Invertebrates",
+    "Fish",
+    "Amphibians",
+    "Reptiles",
+    "Birds",
+    "Mammals"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "l5-animal-life-cycles-01.mp3",
+      "label": "1 · Life Cycles"
+    },
+    {
+      "n": 5,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 6,
+      "audio": "l5-animal-life-cycles-02.mp3",
+      "label": "2 · Insects"
+    },
+    {
+      "n": 7,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 8,
+      "audio": "l5-animal-life-cycles-03.mp3",
+      "label": "3 · Other Invertebrates"
+    },
+    {
+      "n": 9,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 10,
+      "audio": "l5-animal-life-cycles-04.mp3",
+      "label": "4 · Fish"
+    },
+    {
+      "n": 11,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 12,
+      "audio": "l5-animal-life-cycles-05.mp3",
+      "label": "5 · Amphibians"
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": "l5-animal-life-cycles-06.mp3",
+      "label": "6 · Reptiles"
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": "l5-animal-life-cycles-07.mp3",
+      "label": "7 · Birds"
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": "l5-animal-life-cycles-08.mp3",
+      "label": "8 · Mammals"
+    },
+    {
+      "n": 19,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 20,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 21,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 22,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 23,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 24,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 25,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 26,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 27,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 28,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 29,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 30,
+      "audio": null,
+      "label": null
+    }
+  ]
+}
