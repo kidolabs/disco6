@@ -1,0 +1,106 @@
+{
+  "title": "Schools",
+  "level": 1,
+  "chapters": [
+    "Let's Go to School",
+    "Buildings",
+    "At School",
+    "In Class",
+    "Lunchtime",
+    "Uniform",
+    "Free Time",
+    "School Trips"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "schools-01.mp3",
+      "label": "1 · Let's Go to School"
+    },
+    {
+      "n": 5,
+      "audio": "schools-02.mp3",
+      "label": "2 · Buildings"
+    },
+    {
+      "n": 6,
+      "audio": "schools-03.mp3",
+      "label": "3 · At School"
+    },
+    {
+      "n": 7,
+      "audio": "schools-04.mp3",
+      "label": "4 · In Class"
+    },
+    {
+      "n": 8,
+      "audio": "schools-05.mp3",
+      "label": "5 · Lunchtime"
+    },
+    {
+      "n": 9,
+      "audio": "schools-06.mp3",
+      "label": "6 · Uniform"
+    },
+    {
+      "n": 10,
+      "audio": "schools-07.mp3",
+      "label": "7 · Free Time"
+    },
+    {
+      "n": 11,
+      "audio": "schools-08.mp3",
+      "label": "8 · School Trips"
+    },
+    {
+      "n": 12,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

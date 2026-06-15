@@ -1,0 +1,106 @@
+{
+  "title": "In the Sky",
+  "level": 1,
+  "chapters": [
+    "The Sky",
+    "At Night",
+    "The Sun",
+    "Day and Night",
+    "Stars",
+    "Planets",
+    "On the Moon",
+    "Into Space"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "in-the-sky-01.mp3",
+      "label": "1 · The Sky"
+    },
+    {
+      "n": 5,
+      "audio": "in-the-sky-02.mp3",
+      "label": "2 · At Night"
+    },
+    {
+      "n": 6,
+      "audio": "in-the-sky-03.mp3",
+      "label": "3 · The Sun"
+    },
+    {
+      "n": 7,
+      "audio": "in-the-sky-04.mp3",
+      "label": "4 · Day and Night"
+    },
+    {
+      "n": 8,
+      "audio": "in-the-sky-05.mp3",
+      "label": "5 · Stars"
+    },
+    {
+      "n": 9,
+      "audio": "in-the-sky-06.mp3",
+      "label": "6 · Planets"
+    },
+    {
+      "n": 10,
+      "audio": "in-the-sky-07.mp3",
+      "label": "7 · On the Moon"
+    },
+    {
+      "n": 11,
+      "audio": "in-the-sky-08.mp3",
+      "label": "8 · Into Space"
+    },
+    {
+      "n": 12,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

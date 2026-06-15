@@ -1,0 +1,106 @@
+{
+  "title": "At the Beach",
+  "level": 1,
+  "chapters": [
+    "The Beach",
+    "Sand and Rocks",
+    "In Rockpools",
+    "Near the Beach",
+    "In the Ocean",
+    "In the Air",
+    "At the Coast",
+    "Fun at the Beach"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "beach-01.mp3",
+      "label": "1 · The Beach"
+    },
+    {
+      "n": 5,
+      "audio": "beach-02.mp3",
+      "label": "2 · Sand and Rocks"
+    },
+    {
+      "n": 6,
+      "audio": "beach-03.mp3",
+      "label": "3 · In Rockpools"
+    },
+    {
+      "n": 7,
+      "audio": "beach-04.mp3",
+      "label": "4 · Near the Beach"
+    },
+    {
+      "n": 8,
+      "audio": "beach-05.mp3",
+      "label": "5 · In the Ocean"
+    },
+    {
+      "n": 9,
+      "audio": "beach-06.mp3",
+      "label": "6 · In the Air"
+    },
+    {
+      "n": 10,
+      "audio": "beach-07.mp3",
+      "label": "7 · At the Coast"
+    },
+    {
+      "n": 11,
+      "audio": "beach-08.mp3",
+      "label": "8 · Fun at the Beach"
+    },
+    {
+      "n": 12,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    }
+  ]
+}

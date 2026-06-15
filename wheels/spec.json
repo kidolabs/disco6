@@ -1,0 +1,106 @@
+{
+  "title": "Wheels",
+  "level": 1,
+  "chapters": [
+    "What Are Wheels?",
+    "Carts and Chairs",
+    "Bicycles",
+    "Cars, Planes, Trains",
+    "Wheels for Fun",
+    "Wheels to Cut",
+    "Wheels at Home",
+    "Water and Wind"
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 2,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 3,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 4,
+      "audio": "wheels-01.mp3",
+      "label": "1 · What Are Wheels?"
+    },
+    {
+      "n": 5,
+      "audio": "wheels-02.mp3",
+      "label": "2 · Carts and Chairs"
+    },
+    {
+      "n": 6,
+      "audio": "wheels-03.mp3",
+      "label": "3 · Bicycles"
+    },
+    {
+      "n": 7,
+      "audio": "wheels-04.mp3",
+      "label": "4 · Cars, Planes, Trains"
+    },
+    {
+      "n": 8,
+      "audio": "wheels-05.mp3",
+      "label": "5 · Wheels for Fun"
+    },
+    {
+      "n": 9,
+      "audio": "wheels-06.mp3",
+      "label": "6 · Wheels to Cut"
+    },
+    {
+      "n": 10,
+      "audio": "wheels-07.mp3",
+      "label": "7 · Wheels at Home"
+    },
+    {
+      "n": 11,
+      "audio": "wheels-08.mp3",
+      "label": "8 · Water and Wind"
+    },
+    {
+      "n": 12,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 13,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 14,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 15,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 16,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 17,
+      "audio": null,
+      "label": null
+    },
+    {
+      "n": 18,
+      "audio": null,
+      "label": null
+    }
+  ]
+}
